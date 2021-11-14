@@ -19,13 +19,3 @@ The following insights are expected from this project:
 12. Which day of the week, the store gets more customers? 
 13. What are two most common professions?
 
-
-## Importing the libraries
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
-
-##1.Load data and display first 5 rows
-cust = pd.read_csv('Cust_Purch_FakeData.csv')
-cust.head(5)
